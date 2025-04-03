@@ -1,0 +1,21 @@
+{
+  "name": "youtube-streams-api",
+  "version": "1.0.0",
+  "description": "Simple API to get YouTube video streams using innertube.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "innertube.js": "^1.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
